@@ -28,24 +28,6 @@ Utilization = {Total Students / Capacity} * 100
 * **Utilization < 50%:** Indicates the room is too large for the class (Inefficient).
 * **Utilization > 100%:** Indicates the room is overcrowded (Safety hazard).
 
-## Installation & Usage
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/Akash042295/classroom-occupancy-analysis.git](https://github.com/Akash04295/classroom-occupancy-analysis.git)
-    ```
-
-2.  **Install dependencies:**
-    Ensure you have Python installed, then run:
-    ```bash
-    pip install pandas matplotlib numpy
-    ```
-
-3.  **Run the script:**
-    ```bash
-    python analysis.py
-    ```
-
 ## Sample Output
 The script generates a DataFrame showing the calculated utilization:
 *(Note: The script also produces a bar chart window displaying these statistics visually.)*
